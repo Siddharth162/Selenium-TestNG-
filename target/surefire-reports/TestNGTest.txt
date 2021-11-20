@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestNGTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 112.712 sec <<< FAILURE!
+BookTableScriptTest(TestNGTest)  Time elapsed: 11.205 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//button[contains(text(),'Continue to book a table')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MT-302B2B3', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNGTest.BookTableScriptTest(TestNGTest.java:105)
+
